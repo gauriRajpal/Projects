@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg,#8BC6EC 0%,#9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    width: 60%;
+    height: 60%;
+    display:flex;
+    background-color:purple;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(music.jpg);
+}
+
+.leftbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+    background-color: #9599E2;
+    padding: 80px;
+}
+.leftbox h1{
+    font-weight: bolder;
+}
+.leftbox p{
+    font-size: large;
+}
+.view
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#x{
+    display: flex;
+    flex-direction: column;
+}
+#y{
+    display: flex;
+    flex-direction: column;
+}
+#z{
+    display: flex;
+    flex-direction: column;
+}
